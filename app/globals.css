@@ -27,11 +27,13 @@ body {
   color: #ff4da6;
   text-shadow: 4px 4px #ffb3d9;
   animation: bounce 2s infinite;
+  text-align: center;
 }
 
 .subtitle {
   color: #cc0066;
   margin-top: 10px;
+  text-align: center;
 }
 
 /* Floating hearts */
@@ -195,4 +197,38 @@ body {
   0% { transform: translateY(0); }
   50% { transform: translateY(-8px); }
   100% { transform: translateY(0); }
+}
+/* Mobile responsive fixes */
+@media (max-width: 768px) {
+  .friendsTitle {
+    font-size: 2rem; /* Reduce from 3.5rem */
+    letter-spacing: 3px; /* Reduce from 6px */
+  }
+
+  .volumePopup {
+    font-size: 14px; /* Add explicit size */
+    padding: 10px 16px; /* Reduce padding for mobile */
+    min-width: auto; /* Let it shrink on mobile */
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .friendsText {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .friendsTitle {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #ffb3d9; /* Reduce shadow for readability */
+  }
+
+  .title {
+    font-size: 1.8rem;
+    text-shadow: 2px 2px #ffb3d9;
+  }
 }
