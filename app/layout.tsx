@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Lovey Dovey 💕",
-  description: "Cute pixel love website",
+  title: "FOR YOU 🌼",
+
 };
 
 export default function RootLayout({
