@@ -1,10 +1,4 @@
 /* Reset */
-@font-face {
-  font-family: "Friends";
-  src: url("/fonts/Friends.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 body {
   margin: 0;
   overflow: hidden;
@@ -94,7 +88,7 @@ body {
 }
 
 .friendsTitle {
-  font-family: "Friends", cursive;
+  font-family: "Comic Sans MS", "Trebuchet MS", cursive;
   font-size: 3.5rem;
   letter-spacing: 6px;
   color: black;
@@ -132,7 +126,7 @@ body {
   color: white;
   padding: 14px 20px;
   border-radius: 18px;
-  font-family: "Friends", cursive;
+  font-family: "Comic Sans MS", "Trebuchet MS", cursive;
   box-shadow: 4px 4px #ffb3d9;
 
   min-width: 220px;   /* ⭐ FIX */
